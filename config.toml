@@ -1,10 +1,10 @@
 # Mod that makes symbol encounters (visible overworld spawns) pull from the hidden encounter spawn table
 [underworld]
-active = false
+active = true
 
 # Mod that makes shiny pokemon visible in the overworld
 [overworld_shiny]
-active = false
+active = true
 
 # some sounds:
 # "Play_Ba_sys_rare_effect" (battle shiny sound)
@@ -25,11 +25,11 @@ show_aura_for_brilliants = true
 # whether or not to load the battle sound bank in the overworld (needed for battle shiny sound)
 include_battle_sounds = true
 # whether or not to play the shiny sound when the following pokemon respawns
-play_sound_for_following = false
+play_sound_for_following = true
 # whether or not to show the shiny particle for the following pokemon
 show_ptcl_for_following = true
 # whether or not to show a message box on screen when a shiny spawns
-show_message_box = false
+show_message_box = true
 # 0 for regular shiny rate, [1,100] for modified rate
 boosted_percentage = 70
 
@@ -54,7 +54,7 @@ max_distance = 1000.0
 
 # Mod that removes the level cap-based shiny lock & catch lock
 [uncap_level]
-active = false
+active = true
 
 # remove all badge-based level caps (if false, shiny uncatchables are possible)
 fully = true
